@@ -2,9 +2,8 @@ import os
 import base64
 from openai import OpenAI
 
-#OPENAI_API_KEY = "sk-proj-XJqlTqGJiK4WxG7aMOpNT3BlbkFJzqQJmC6GDUWf67yHTTJG"
-OPENAI_API_KEY = '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'
-OPENAI_ORG_ID = "org-OxbQndmhHqBlM4ZvhRVeYuR5"
+OPENAI_API_KEY = 'YOUR-OWN'
+OPENAI_ORG_ID = "YOUR-OWN"
 
 os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
